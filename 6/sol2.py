@@ -15,7 +15,3 @@ for line in in_data:
         if answer != '':
             sets.append(set(answer))
     res += len(set.intersection(*[x for x in sets]))
-
-# To document:
-# set.intersection
-# set

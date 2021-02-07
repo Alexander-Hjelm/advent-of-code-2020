@@ -13,6 +13,3 @@ for line in in_data:
     res += len(set(line))
 
 print(res)
-
-print(set('aaaabbcdddee'))
-print(set([1, 1, 2, 3, 4, 4, 5]))
